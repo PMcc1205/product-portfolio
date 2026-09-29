@@ -5,6 +5,8 @@ Static portfolio site for two product-management projects:
 - AI Resume Optimization Assistant
 - SalesFast Education CRM
 
+The latest AI Resume case study is embedded at `prototypes/ai-resume/portfolio/`. It includes the full case-study page and a static interactive demo at `#/demo`; no API key or backend service is required.
+
 ## Publish with GitHub Pages
 
 1. Push this repository to GitHub.

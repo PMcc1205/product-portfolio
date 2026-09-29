@@ -27,14 +27,19 @@ h3 { font-size: 17px; margin-bottom: 16px; }
 .facts div { border-bottom: 1px solid var(--line); padding: 16px 0; }
 dt { font-size: 13px; font-weight: 700; margin-bottom: 4px; }
 dd { color: #43545d; margin: 0; }
+.metric-grid { display: grid; gap: 10px; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 28px; }
+.metric { background: rgba(255, 255, 255, .62); border: 1px solid var(--line); padding: 14px 16px; }
+.metric strong { display: block; font-size: 20px; line-height: 1.2; }
+.metric span { color: #51636a; display: block; font-size: 12px; margin-top: 6px; }
 .materials { border-top: 3px solid var(--ink); }
 .materials a { align-items: center; border-bottom: 1px solid var(--line); display: flex; font-size: 15px; gap: 12px; justify-content: space-between; padding: 15px 0; text-decoration: none; }
 .materials a:hover { color: var(--aqua); }
 .materials span { color: #607177; flex: 0 0 auto; font-size: 12px; font-weight: 700; letter-spacing: .6px; }
 .materials .primary-link { background: var(--ink); color: white; margin-bottom: 12px; padding: 16px; }
 .materials .primary-link span { color: white; }
+.materials .demo-link { color: var(--aqua); font-weight: 700; }
 .materials .source-link { font-weight: 700; }
 footer { align-items: center; background: var(--ink); color: white; display: flex; justify-content: space-between; min-height: 120px; padding: 0 10vw; }
 footer p { margin: 0; }
 footer a { color: white; font-size: 14px; }
-@media (max-width: 700px) { .site-header { padding: 0 24px; } nav { gap: 16px; } nav a { font-size: 12px; } .intro, .project { padding-left: 24px; padding-right: 24px; } .intro { min-height: 300px; padding-top: 64px; } .project-grid { gap: 40px; grid-template-columns: 1fr; } .intro-copy, .subtitle { font-size: 17px; } footer { padding: 0 24px; } }
+@media (max-width: 700px) { .site-header { padding: 0 24px; } nav { gap: 16px; } nav a { font-size: 12px; } .intro, .project { padding-left: 24px; padding-right: 24px; } .intro { min-height: 300px; padding-top: 64px; } .project-grid { gap: 40px; grid-template-columns: 1fr; } .intro-copy, .subtitle { font-size: 17px; } .metric-grid { grid-template-columns: 1fr; } footer { padding: 0 24px; } }
